@@ -59,14 +59,23 @@ export const Header = () => {
   return (
     <HeaderBackground>
       <IconWrapper>
-        <a>
-          <img src='https://img.icons8.com/ios-glyphs/30/000000/github.png' />
+        <a href='https://github.com/Asivol93'>
+          <img
+            src='https://img.icons8.com/ios-glyphs/30/000000/github.png'
+            alt='github icon'
+          />
         </a>
-        <a>
-          <img src='https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v2.png' />
+        <a href='https://www.linkedin.com/in/lovisa-carling/'>
+          <img
+            src='https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v2.png'
+            alt='linkedin icon'
+          />
         </a>
-        <a>
-          <img src='https://img.icons8.com/windows/32/000000/stackoverflow.png' />
+        <a href='https://stackoverflow.com/users/16687109/asivol'>
+          <img
+            src='https://img.icons8.com/windows/32/000000/stackoverflow.png'
+            alt='stackoverflow icon'
+          />
         </a>
       </IconWrapper>
       <div>
@@ -74,11 +83,7 @@ export const Header = () => {
         <h2>With love for innovation</h2>
       </div>
 
-      <img
-        id='profile'
-        src='https://i.imgur.com/PGtCfwP.png'
-        alt='profile image'
-      />
+      <img id='profile' src='https://i.imgur.com/PGtCfwP.png' alt='profile' />
     </HeaderBackground>
   )
 }

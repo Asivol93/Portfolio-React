@@ -1,9 +1,15 @@
 import React from 'react'
+import {
+  ArticleOptionOne,
+  ArticleOptionTwo,
+  ColoredTitle,
+  ColoredTitleWrapper,
+} from './StyledComponents'
 
 export const ProfileInfo = () => {
   return (
     <>
-      <article>
+      <ArticleOptionTwo>
         <p>
           Hello! I love to build memorable projects with focus on creativity,
           usability and functionality across all my competence areas. Outside of
@@ -13,15 +19,17 @@ export const ProfileInfo = () => {
           do it-approach but do appreciate structure such as planning, designing
           and analyzing.
         </p>
-      </article>
-      <article>
-        <h3>Tech</h3>
+      </ArticleOptionTwo>
+      <ArticleOptionOne>
+        <ColoredTitleWrapper>
+          <ColoredTitle>Tech</ColoredTitle>
+        </ColoredTitleWrapper>
         <p>
           HTML, CSS, JavaScript, ES6, API:s, Git, Web Accessibility,
           Mob-programming, Pair-programming, Github, Digital Transformation,
           Interaction Analytics, Digital Assistants (NLP)
         </p>
-      </article>
+      </ArticleOptionOne>
     </>
   )
 }
