@@ -12,6 +12,10 @@ import {
 
 const CardInfo = styled.div`
   padding-bottom: 30px;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 `
 
 export const MainProjects = () => {
@@ -25,9 +29,16 @@ export const MainProjects = () => {
         {data.map((item) => (
           <CardInfo key={item.title}>
             <img src={item.image} alt='project poster' />
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
-            <span>{item.tools.tag}</span>
+            <a
+              href={item.netlify}
+              alt='project landingpage'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+              <span>{item.tools.tag}</span>
+            </a>
           </CardInfo>
         ))}
       </Carousel>

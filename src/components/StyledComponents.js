@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const ArticleOptionOne = styled.article`
   text-align: center;
-  padding: 30px;
+  padding: 50px;
 `
 export const ArticleOptionTwo = styled.article`
-  padding: 30px;
+  padding: 50px;
   background-color: #f4f4f4;
 `
 

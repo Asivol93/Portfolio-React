@@ -1,7 +1,8 @@
 [
   {
     "title": "Weather app built with Javascript & open weather API",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/MPBWQyJ.png",
+    "netlify": "https://tiger-weather-app.netlify.app/",
     "description": "Weather forecast for locations worldwide using Open Weather API",
     "tools": {
       "tag1": "HTML",
@@ -13,7 +14,8 @@
   },
   {
     "title": "Send happy thoughts with help of API fetch & post requests",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/m3VFxny.png",
+    "netlify": "https://carling-happy-thoughts.netlify.app/",
     "description": "Website built with React where you can send happy thoughts through API fetch and post requests. Like other thoughts and filter between oldest and newest.",
     "tools": {
       "tag1": "CSS",
@@ -24,7 +26,8 @@
   },
   {
     "title": "Guess who game with League of Legends theme",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/mzFtwn5.png",
+    "netlify": "https://carling-guess-who-w5.netlify.app/",
     "description": "Guess who game that filters champions based on user guesses",
     "tools": {
       "tag1": "HTML",
@@ -35,6 +38,7 @@
   {
     "title": "Todo list built with Redux",
     "image": "https://i.imgur.com/x4maGoe.png",
+    "netlify": "https://carling-todos.netlify.app/",
     "description": "Todo list where you can add and clear tasks. Built with Redux reducers and actions",
     "tools": {
       "tag1": "Styled components",
@@ -44,7 +48,8 @@
   },
   {
     "title": "Business site built with HTML, CSS & JavaScript",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/eiEZDUP.png",
+    "netlify": "https://carling-business-sitew3.netlify.app/",
     "description": "Video header with JavaScript navbar, CSS grid and JavaScript accordion.",
     "tools": {
       "tag1": "HTML",
@@ -54,7 +59,8 @@
   },
   {
     "title": "Mobile application built with React Native",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/7nXgsqH.png",
+    "netlify": "",
     "description": "Fetching cocktails from an API with the accelerometer sensor",
     "tools": {
       "tag1": "React Native stylesheets",
@@ -65,7 +71,8 @@
   },
   {
     "title": "Trivia Quiz built in redux",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/PaMrYzu.png",
+    "netlify": "https://amazing-tiger-trivia.netlify.app/",
     "description": "Trivia quiz built in Redux. Displays correct/incorrect answers as well as a summary with charts",
     "tools": {
       "tag1": "Styled components",
@@ -76,7 +83,8 @@
   },
   {
     "title": "API built with Next.js",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/LHQqPA2.png",
+    "netlify": "https://carling-topmusicdata-frontend.netlify.app/",
     "description": "Backend project building an API with Next.js. Frontend built with React.",
     "tools": {
       "tag1": "Next.js",
@@ -87,7 +95,8 @@
   },
   {
     "title": "Movie Releases",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/4VzEw71.png",
+    "netlify": "https://movieseason.netlify.app/",
     "description": "Movie releases website built with React that fetches new, up coming and popular movies",
     "tools": {
       "tag1": "Styled components",
@@ -98,7 +107,8 @@
   },
   {
     "title": "Game finder survey",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/tv1qNfV.png",
+    "netlify": "https://game-finder-survey.netlify.app/",
     "description": "Find a game that matches your profile with this survey built in React",
     "tools": {
       "tag1": "CSS",
@@ -107,7 +117,8 @@
   },
   {
     "title": "Music chatbot built with JavaScript",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "image": "https://i.imgur.com/um7JsUd.png",
+    "netlify": "",
     "description": "Chat bot that gives you song recommendations based on your mood",
     "tools": {
       "tag1": "HTML",
