@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import data from '../assets/ProjectsData.json'
 import {
-  ArticleOptionOne,
+  InsideContainer,
   ArticleOptionTwo,
   ColoredTitle,
   ColoredTitleWrapper,
@@ -21,27 +21,29 @@ const CardInfo = styled.div`
 export const MainProjects = () => {
   return (
     <ArticleOptionTwo>
-      <ColoredTitleWrapper>
-        <ColoredTitle>Featured Projects</ColoredTitle>
-      </ColoredTitleWrapper>
+      <InsideContainer>
+        <ColoredTitleWrapper>
+          <ColoredTitle>Featured Projects</ColoredTitle>
+        </ColoredTitleWrapper>
 
-      <Carousel>
-        {data.map((item) => (
-          <CardInfo key={item.title}>
-            <img src={item.image} alt='project poster' />
-            <a
-              href={item.netlify}
-              alt='project landingpage'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-              <span>{item.tools.tag}</span>
-            </a>
-          </CardInfo>
-        ))}
-      </Carousel>
+        <Carousel>
+          {data.map((item) => (
+            <CardInfo key={item.title}>
+              <img src={item.image} alt='project poster' />
+              <a
+                href={item.netlify}
+                alt='project landingpage'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <span>{item.tools.tag}</span>
+              </a>
+            </CardInfo>
+          ))}
+        </Carousel>
+      </InsideContainer>
     </ArticleOptionTwo>
   )
 }

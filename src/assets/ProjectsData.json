@@ -25,6 +25,18 @@
     }
   },
   {
+    "title": "Book data API built with MongoDB and React",
+    "image": "https://i.imgur.com/xN2mgTF.png",
+    "netlify": "https://carling-bookapi-frontend.netlify.app/",
+    "description": "Frontend built with React and backend with MongoDB and Mongoose",
+    "tools": {
+      "tag1": "React",
+      "tag2": "Styled components",
+      "tag3": "Mongoose",
+      "tag4": "MongoDB"
+    }
+  },
+  {
     "title": "Guess who game with League of Legends theme",
     "image": "https://i.imgur.com/mzFtwn5.png",
     "netlify": "https://carling-guess-who-w5.netlify.app/",

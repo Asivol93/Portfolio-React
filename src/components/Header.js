@@ -1,6 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-// import { LightBackground } from '../assets/light-background.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faGithub,
+  faLinkedin,
+  faStackOverflow,
+} from '@fortawesome/free-brands-svg-icons'
 
 const HeaderBackground = styled.header`
   background-image: url('https://i.imgur.com/9C8weqB.jpg');
@@ -11,12 +16,12 @@ const HeaderBackground = styled.header`
   height: 500px;
   h1 {
     font-size: 40px;
-    margin: 20px 20px 0 20px;
+    margin: 0px 0px 0 30px;
   }
 
   h2 {
     font-size: 20px;
-    margin: 10px 0px 0 20px;
+    margin: 10px 0px 0 30px;
   }
 
   #profile {
@@ -31,6 +36,13 @@ const HeaderBackground = styled.header`
       right: 20px;
       top: 230px;
     }
+
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 30px;
+    }
   }
 
   @media (min-width: 921px) {
@@ -38,6 +50,13 @@ const HeaderBackground = styled.header`
       width: 350px;
       right: 20px;
       top: 150px;
+    }
+
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 40px;
     }
   }
 `
@@ -51,6 +70,15 @@ const IconWrapper = styled.div`
     width: 50px;
   }
 
+  a {
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
   @media {
   }
 `
@@ -59,28 +87,32 @@ export const Header = () => {
   return (
     <HeaderBackground>
       <IconWrapper>
-        <a href='https://github.com/Asivol93'>
-          <img
-            src='https://img.icons8.com/ios-glyphs/30/000000/github.png'
-            alt='github icon'
-          />
+        <a
+          href='https://github.com/Asivol93'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FontAwesomeIcon icon={faGithub} size='3x' color='black' />
         </a>
-        <a href='https://www.linkedin.com/in/lovisa-carling/'>
-          <img
-            src='https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v2.png'
-            alt='linkedin icon'
-          />
+        <a
+          href='https://www.linkedin.com/in/lovisa-carling/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FontAwesomeIcon icon={faLinkedin} size='3x' color='black' />
         </a>
-        <a href='https://stackoverflow.com/users/16687109/asivol'>
-          <img
-            src='https://img.icons8.com/windows/32/000000/stackoverflow.png'
-            alt='stackoverflow icon'
-          />
+        <a
+          href='https://stackoverflow.com/users/16687109/asivol'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FontAwesomeIcon icon={faStackOverflow} size='3x' color='black' />
         </a>
       </IconWrapper>
       <div>
-        <h1>Frontend Developer</h1>
-        <h2>With love for innovation</h2>
+        <h1>Frontend</h1>
+        <h1>developer</h1>
+        <h2>with love for innovation</h2>
       </div>
 
       <img id='profile' src='https://i.imgur.com/PGtCfwP.png' alt='profile' />
