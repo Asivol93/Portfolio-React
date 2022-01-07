@@ -1,19 +1,7 @@
-# Technigo React Starter App
+# Portfolio Lovisa Carling
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+My portfolio created with React and styled components instead of regular HTML/CSS. Views projects I've made (both frontend and backend) as well as articles I written, what tech stack I use and skills I have.
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+# View Live
 
-## Usage
-
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
-
-Alternatively, if you don't want a new git repo on your account;
-
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+https://portfolio-carling.netlify.app/
