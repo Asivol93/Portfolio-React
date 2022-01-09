@@ -13,10 +13,10 @@
     }
   },
   {
-    "title": "Send happy thoughts with help of API fetch & post requests",
-    "image": "https://i.imgur.com/m3VFxny.png",
+    "title": "Send happy thoughts with API fetch & post requests",
+    "image": "https://i.imgur.com/y1v5rOy.png",
     "netlify": "https://carling-happy-thoughts.netlify.app/",
-    "description": "Website built with React where you can send happy thoughts through API fetch and post requests. Like other thoughts and filter between oldest and newest.",
+    "description": "Built with React where you can send and like happy thoughts through API fetch and post requests. Backend built with MongoDB and Mongoose.",
     "tools": {
       "tag1": "CSS",
       "tag2": "JavaScript ES6",
