@@ -13,13 +13,15 @@ export const ProfileInfo = () => {
       <ArticleOptionTwo>
         <InsideContainer>
           <p>
-            Hello! I love to build memorable projects with focus on creativity,
-            usability and functionality across all my competence areas. Outside
-            of the box-thinking close to heart with enthusiasm for innovation
-            and new technology. With experience in project management I'm secure
-            in leading and be a support member in projects. I often work with a
-            Just do it-approach but do appreciate structure such as planning,
-            designing and analyzing.
+            Hello! I’m a Frontend Developer with experience in project
+            management and continuous improvement. I love building memorable
+            projects with focus on creativity, usability and functionality
+            across all my competence areas. Outside of the box-thinking close to
+            heart with enthusiasm for innovation and new technology.
+          </p>
+          <p>
+            In my free time? I love gaming, especially with friends, as well as
+            working out (trying to ace jump ropes at this moment!).
           </p>
         </InsideContainer>
       </ArticleOptionTwo>
@@ -29,8 +31,8 @@ export const ProfileInfo = () => {
             <ColoredTitle>Tech</ColoredTitle>
           </ColoredTitleWrapper>
           <p>
-            HTML, CSS, JavaScript, ES6, API:s, Git, Web Accessibility,
-            Mob-programming, Pair-programming, Github, Digital Transformation,
+            HTML, CSS, JavaScript ES6 (React), APIs, Git, Web Accessibility,
+            Mob- and pair-programming, Github, Digital Transformation,
             Interaction Analytics, Digital Assistants (NLP)
           </p>
         </InsideContainer>
