@@ -12,7 +12,7 @@ const HeaderBackground = styled.header`
   display: flex;
   flex-direction: column;
   background-position: center;
-
+  color: #212427;
   height: 500px;
   h1 {
     font-size: 40px;
@@ -78,9 +78,6 @@ const IconWrapper = styled.div`
       transform: scale(1.1);
     }
   }
-
-  @media {
-  }
 `
 
 export const Header = () => {
@@ -92,21 +89,21 @@ export const Header = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faGithub} size='3x' color='black' />
+          <FontAwesomeIcon icon={faGithub} size='3x' color='#212427' />
         </a>
         <a
           href='https://www.linkedin.com/in/lovisa-carling/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faLinkedin} size='3x' color='black' />
+          <FontAwesomeIcon icon={faLinkedin} size='3x' color='#212427' />
         </a>
         <a
           href='https://stackoverflow.com/users/16687109/asivol'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faStackOverflow} size='3x' color='black' />
+          <FontAwesomeIcon icon={faStackOverflow} size='3x' color='#212427' />
         </a>
       </IconWrapper>
       <div>

@@ -1,142 +1,128 @@
 [
   {
+    "title": "Authentication form built with MongoDB, Mongoose and React.",
+    "id": "1",
+    "image": "https://i.imgur.com/CLqu7jw.png",
+    "netlify": "https://jakob-lovisa-authorization.netlify.app/",
+    "github": "https://github.com/Asivol93/project-auth",
+    "description": "Sign in/sign up form with authentication. User data stored in MongoDB, created with Mongoose.",
+    "tools": ["React", "Mongoose", "MongoDB", "API"]
+  },
+  {
     "title": "Weather app built with Javascript & open weather API",
+    "id": "2",
     "image": "https://i.imgur.com/MPBWQyJ.png",
     "netlify": "https://tiger-weather-app.netlify.app/",
-    "description": "Weather forecast for locations worldwide using Open Weather API",
-    "tools": {
-      "tag1": "HTML",
-      "tag2": "CSS",
-      "tag3": "JavaScript ES6",
-      "tag4": "API",
-      "tag5": "Mob programming"
-    }
+    "github": "https://github.com/Asivol93/project-weather-app",
+    "description": "Weather forecast for locations worldwide using Open Weather API and JavaScript.",
+    "tools": ["HTML", "CSS", "JavaScript", "API"]
   },
   {
     "title": "Send happy thoughts with API fetch & post requests",
+    "id": "3",
     "image": "https://i.imgur.com/y1v5rOy.png",
     "netlify": "https://carling-happy-thoughts.netlify.app/",
-    "description": "Built with React where you can send and like happy thoughts through API fetch and post requests. Backend built with MongoDB and Mongoose.",
-    "tools": {
-      "tag1": "CSS",
-      "tag2": "JavaScript ES6",
-      "tag3": "React",
-      "tag4": "API"
-    }
+    "github": "https://github.com/Asivol93/project-happy-thoughts",
+    "description": "React website where you can send & like happy thoughts with API fetch & post requests. Backend built with MongoDB & Mongoose.",
+    "tools": ["CSS", "JavaScript", "React", "API"]
   },
   {
     "title": "Book data API built with MongoDB and React",
+    "id": "4",
     "image": "https://i.imgur.com/xN2mgTF.png",
     "netlify": "https://carling-bookapi-frontend.netlify.app/",
-    "description": "Frontend built with React and backend with MongoDB and Mongoose",
-    "tools": {
-      "tag1": "React",
-      "tag2": "Styled components",
-      "tag3": "Mongoose",
-      "tag4": "MongoDB"
-    }
+    "github": "https://github.com/Asivol93/project-mongo-api-frontend",
+    "description": "Frontend built with React and backend with MongoDB and Mongoose. Filter books by length and rating.",
+    "tools": ["React", "Styled components", "Mongoose", "MongoDB"]
   },
   {
     "title": "Guess who game with League of Legends theme",
+    "id": "5",
     "image": "https://i.imgur.com/mzFtwn5.png",
     "netlify": "https://carling-guess-who-w5.netlify.app/",
+    "github": "https://github.com/Asivol93/project-guess-who",
     "description": "Guess who game that filters champions based on user guesses",
-    "tools": {
-      "tag1": "HTML",
-      "tag2": "CSS",
-      "tag3": "JavaScript ES6"
-    }
+    "tools": ["HTML", "CSS", "JavaScript ES6"]
   },
   {
     "title": "Todo list built with Redux",
-    "image": "https://i.imgur.com/x4maGoe.png",
+    "id": "6",
+    "image": "https://i.imgur.com/niBZvyN.png",
     "netlify": "https://carling-todos.netlify.app/",
+    "github": "https://github.com/Asivol93/project-todos",
     "description": "Todo list where you can add and clear tasks. Built with Redux reducers and actions",
-    "tools": {
-      "tag1": "Styled components",
-      "tag2": "Redux",
-      "tag3": "React"
-    }
+    "tools": ["Styled components", "Redux", "React"]
   },
   {
     "title": "Business site built with HTML, CSS & JavaScript",
+    "id": "7",
     "image": "https://i.imgur.com/eiEZDUP.png",
     "netlify": "https://carling-business-sitew3.netlify.app/",
+    "github": "https://github.com/Asivol93/project-business-site",
     "description": "Video header with JavaScript navbar, CSS grid and JavaScript accordion.",
-    "tools": {
-      "tag1": "HTML",
-      "tag2": "CSS",
-      "tag3": "JavaScript ES6"
-    }
+    "tools": ["HTML", "CSS", "JavaScript"]
   },
   {
     "title": "Mobile application built with React Native",
+    "id": "8",
     "image": "https://i.imgur.com/7nXgsqH.png",
     "netlify": "",
+    "github": "https://github.com/Asivol93/project-react-native-app",
     "description": "Fetching cocktails from an API with the accelerometer sensor",
-    "tools": {
-      "tag1": "React Native stylesheets",
-      "tag2": "React Native",
-      "tag3": "API",
-      "tag4": "Accelerometer Sensor"
-    }
+    "tools": ["React Native", "API", "Accelerometer Sensor"]
   },
   {
     "title": "Trivia Quiz built in redux",
+    "id": "9",
     "image": "https://i.imgur.com/PaMrYzu.png",
     "netlify": "https://amazing-tiger-trivia.netlify.app/",
+    "github": "https://github.com/Asivol93/project-redux-quiz",
     "description": "Trivia quiz built in Redux. Displays correct/incorrect answers as well as a summary with charts",
-    "tools": {
-      "tag1": "Styled components",
-      "tag2": "React",
-      "tag3": "Redux",
-      "tag4": "Mob programming"
-    }
+    "tools": ["Styled components", "React", "Redux"]
   },
   {
     "title": "API built with Next.js",
+    "id": "10",
     "image": "https://i.imgur.com/LHQqPA2.png",
     "netlify": "https://carling-topmusicdata-frontend.netlify.app/",
+    "github": "https://github.com/Asivol93/project-express-api-frontend",
     "description": "Backend project building an API with Next.js. Frontend built with React.",
-    "tools": {
-      "tag1": "Next.js",
-      "tag2": "React Native",
-      "tag3": "API",
-      "tag4": "Accelerometer Sensor"
-    }
+    "tools": ["Next.js", "React", "API", "Styled components"]
   },
   {
     "title": "Movie Releases",
+    "id": "11",
     "image": "https://i.imgur.com/4VzEw71.png",
     "netlify": "https://movieseason.netlify.app/",
+    "github": "https://github.com/Asivol93/project-movies",
     "description": "Movie releases website built with React that fetches new, up coming and popular movies",
-    "tools": {
-      "tag1": "Styled components",
-      "tag2": "React",
-      "tag3": "API",
-      "tag4": "Pair programming"
-    }
+    "tools": ["Styled components", "React", "API"]
   },
   {
     "title": "Game finder survey",
-    "image": "https://i.imgur.com/tv1qNfV.png",
+    "id": "12",
+    "image": "https://i.imgur.com/aKgvy4s.png",
     "netlify": "https://game-finder-survey.netlify.app/",
-    "description": "Find a game that matches your profile with this survey built in React",
-    "tools": {
-      "tag1": "CSS",
-      "tag2": "React"
-    }
+    "github": "https://github.com/Asivol93/project-survey",
+    "description": "Survey built with React where you can find a game that matches your profile.",
+    "tools": ["CSS", "React"]
   },
   {
     "title": "Music chatbot built with JavaScript",
+    "id": "13",
     "image": "https://i.imgur.com/um7JsUd.png",
-    "netlify": "",
+    "netlify": "https://hopeful-curie-9450c4.netlify.app",
+    "github": "https://github.com/Asivol93/project-chatbot",
     "description": "Chat bot that gives you song recommendations based on your mood",
-    "tools": {
-      "tag1": "HTML",
-      "tag2": "CSS",
-      "tag3": "JavaScript ES6",
-      "tag4": "Pair programming"
-    }
+    "tools": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "Music releases",
+    "id": "14",
+    "image": "https://i.imgur.com/HkM2KYP.png",
+    "netlify": "https://music-releases-mob-programming.netlify.app/",
+    "github": "https://github.com/Asivol93/project-music-releases",
+    "description": "Music releases API built with React, designed as a music streaming platform with icons and hover effects.",
+    "tools": ["CSS", "React", "API"]
   }
 ]
