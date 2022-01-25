@@ -73,7 +73,7 @@ export const Skills = () => {
             <SkillsBox>
               <h5>Upcoming</h5>
               <ul>
-                <li>Any suggestions?</li>
+                <li>Tailwind CSS</li>
               </ul>
             </SkillsBox>
             <SkillsBox>
