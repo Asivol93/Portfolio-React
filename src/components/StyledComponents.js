@@ -27,7 +27,7 @@ export const InsideContainer = styled.div`
 `
 
 export const ColoredTitle = styled.h3`
-  background-color: #c62a88;
+  background-color: #c70251;
   padding: 10px;
   word-break: none;
   text-transform: uppercase;

@@ -23,7 +23,7 @@ const CardInfo = styled.div`
 
 const Tag = styled.span`
   color: #fff;
-  background-color: #c62a88;
+  background-color: #c70251;
   border: none;
   font-size: 10px;
 
@@ -47,6 +47,9 @@ const CardContainer = styled.div`
     color: #000;
     position: relative;
     display: block;
+  }
+  @media (max-width: 798px) {
+    grid-template-columns: repeat(1, 1fr);
   }
 `
 const CardOverlay = styled.div`

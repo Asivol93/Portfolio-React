@@ -8,11 +8,12 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 const HeaderBackground = styled.header`
-  background-image: url('https://i.imgur.com/9C8weqB.jpg');
+  background-image: url('https://i.imgur.com/S2Cq7YT.jpg');
   display: flex;
   flex-direction: column;
-  background-position: center;
-  color: #212427;
+  /* object-fit: cover; */
+  background-position: top;
+  color: #fff;
   height: 500px;
   h1 {
     font-size: 40px;
@@ -89,21 +90,21 @@ export const Header = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faGithub} size='3x' color='#212427' />
+          <FontAwesomeIcon icon={faGithub} size='3x' color='#fff' />
         </a>
         <a
           href='https://www.linkedin.com/in/lovisa-carling/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faLinkedin} size='3x' color='#212427' />
+          <FontAwesomeIcon icon={faLinkedin} size='3x' color='#fff' />
         </a>
         <a
           href='https://stackoverflow.com/users/16687109/asivol'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faStackOverflow} size='3x' color='#212427' />
+          <FontAwesomeIcon icon={faStackOverflow} size='3x' color='#fff' />
         </a>
       </IconWrapper>
       <div>

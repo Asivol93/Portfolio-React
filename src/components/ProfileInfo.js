@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
+import styled from 'styled-components'
 import {
   ArticleOptionOne,
   ArticleOptionTwo,
@@ -7,12 +10,20 @@ import {
   ColoredTitleWrapper,
 } from './StyledComponents'
 
+const IconWrapper = styled.span`
+  /* margin: 15px; */
+  padding: 20px;
+`
+
 export const ProfileInfo = () => {
   return (
     <>
       <ArticleOptionTwo>
         <InsideContainer>
           <p>
+            <IconWrapper>
+              <FontAwesomeIcon icon={faCode} size='2x' color='#c70251' />
+            </IconWrapper>
             Hello! I’m a Frontend Developer with experience in project
             management and continuous improvement. I love building memorable
             projects with focus on creativity, usability and functionality
