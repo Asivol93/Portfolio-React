@@ -58,6 +58,7 @@ export const Skills = () => {
                 <li>Express.js</li>
                 <li>MongoDB</li>
                 <li>Git</li>
+                <li>Material UI</li>
               </ul>
             </SkillsBox>
             <SkillsBox>

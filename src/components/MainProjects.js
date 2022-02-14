@@ -81,6 +81,7 @@ const DetailsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: auto;
+  justify-content: space-between;
 `
 
 export const MainProjects = () => {
