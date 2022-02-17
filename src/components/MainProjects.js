@@ -35,6 +35,8 @@ const Tag = styled.span`
 const TagContainer = styled.div`
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
 `
 
 const CardContainer = styled.div`

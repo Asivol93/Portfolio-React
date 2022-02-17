@@ -37,6 +37,9 @@ export const ColoredTitle = styled.h3`
   font-weight: 500;
   box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px,
     rgb(0 0 0 / 4%) 0px 10px 10px -5px;
+  @media (max-width: 420px) {
+    font-size: 18px;
+  }
 `
 export const ColoredTitleWrapper = styled.div`
   display: flex;
