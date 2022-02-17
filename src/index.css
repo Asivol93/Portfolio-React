@@ -21,3 +21,7 @@ h3 {
 .dot {
   color: #c62a88;
 }
+
+#root {
+  width: 100%;
+}

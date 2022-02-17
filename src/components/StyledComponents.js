@@ -23,7 +23,7 @@ export const ArticleOptionTwo = styled.article`
   }
 `
 export const InsideContainer = styled.div`
-  width: 70%;
+  width: 80%;
 `
 
 export const ColoredTitle = styled.h3`

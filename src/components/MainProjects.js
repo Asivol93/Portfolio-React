@@ -14,7 +14,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 const CardInfo = styled.div`
   padding-bottom: 30px;
   width: 100%;
-
+  word-break: break-all;
   img {
     width: 100%;
     display: block;
@@ -26,7 +26,6 @@ const Tag = styled.span`
   background-color: #c70251;
   border: none;
   font-size: 10px;
-
   padding: 4px;
   margin-right: 10px;
   box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
