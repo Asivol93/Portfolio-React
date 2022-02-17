@@ -30,14 +30,6 @@ const Date = styled.h4`
   text-transform: uppercase;
 `
 
-const TestDiv = styled.div`
-  width: 100px;
-  height: 100px;
-  /* background: red;
-  opacity: 1; */
-  background: rgba(255, 255, 0, 1);
-`
-
 export const MyThoughts = () => {
   return (
     <ArticleOptionOne>
