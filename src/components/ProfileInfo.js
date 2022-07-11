@@ -31,6 +31,10 @@ export const ProfileInfo = () => {
             heart with enthusiasm for innovation and new technology.
           </p>
           <p>
+            Currently working as a Front end developer consultant at Axakon
+            Consulting.
+          </p>
+          <p>
             In my free time? I love gaming, especially with friends, as well as
             working out (trying to ace jump ropes at this moment!).
           </p>
@@ -42,9 +46,9 @@ export const ProfileInfo = () => {
             <ColoredTitle>Tech</ColoredTitle>
           </ColoredTitleWrapper>
           <p>
-            HTML, CSS, JavaScript ES6 (React), APIs, Git, Web Accessibility,
-            Mob- and pair-programming, Github, Digital Transformation,
-            Interaction Analytics, Digital Assistants (NLP)
+            HTML, CSS, JavaScript & TypeScript, React, Redux, APIs, Git, Web
+            Accessibility, Mob- and pair-programming, Github/Gitlab, Project
+            management, Interaction Analytics, Digital Assistants (NLP)
           </p>
         </InsideContainer>
       </ArticleOptionOne>

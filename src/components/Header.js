@@ -8,12 +8,13 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 const HeaderBackground = styled.header`
-  background-image: url('https://i.imgur.com/S2Cq7YT.jpg');
+  background-image: url('https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   display: flex;
   flex-direction: column;
   /* object-fit: cover; */
-  background-position: top;
-  color: #fff;
+  position: relative;
+  background-position: stretch;
+  color: #212427;
   height: 500px;
   h1 {
     font-size: 40px;
@@ -31,6 +32,18 @@ const HeaderBackground = styled.header`
     top: 290px;
     width: 210px;
   }
+
+  #first,
+  #second {
+    display: none;
+  }
+
+  #third {
+    position: absolute;
+    width: 240px;
+    right: 50px;
+    bottom: 0;
+  }
   @media (min-width: 620px) and (max-width: 920px) {
     #profile {
       width: 270px;
@@ -42,25 +55,45 @@ const HeaderBackground = styled.header`
       font-size: 50px;
     }
     h2 {
-      font-size: 30px;
+      font-size: 25px;
     }
   }
 
   @media (min-width: 921px) {
-    #profile {
-      width: 350px;
-      right: 20px;
-      top: 150px;
+    #first {
+      display: initial;
+      position: absolute;
+      width: 300px;
+      right: 350px;
+      top: 100px;
+    }
+    #second {
+      display: initial;
+      position: absolute;
+      width: 300px;
+      right: 200px;
+      top: 100px;
+    }
+    #third {
+      position: absolute;
+      width: 300px;
+      right: 50px;
+      top: 100px;
     }
 
     h1 {
       font-size: 60px;
     }
     h2 {
-      font-size: 40px;
+      font-size: 30px;
     }
   }
 `
+// const imageContainer = styled.div`
+//   position: absolute;
+//   display: flex;
+//   width: 100%;
+// `
 const IconWrapper = styled.div`
   display: flex;
   justify-content: end;
@@ -90,21 +123,21 @@ export const Header = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faGithub} size='3x' color='#fff' />
+          <FontAwesomeIcon icon={faGithub} size='3x' color='#212427' />
         </a>
         <a
           href='https://www.linkedin.com/in/lovisa-carling/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faLinkedin} size='3x' color='#fff' />
+          <FontAwesomeIcon icon={faLinkedin} size='3x' color='#212427' />
         </a>
         <a
           href='https://stackoverflow.com/users/16687109/asivol'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FontAwesomeIcon icon={faStackOverflow} size='3x' color='#fff' />
+          <FontAwesomeIcon icon={faStackOverflow} size='3x' color='#212427' />
         </a>
       </IconWrapper>
       <div>
@@ -113,7 +146,9 @@ export const Header = () => {
         <h2>with love for innovation</h2>
       </div>
 
-      <img id='profile' src='https://i.imgur.com/PGtCfwP.png' alt='profile' />
+      <img id='first' src='https://i.imgur.com/QFZbCf9.png' alt='profile' />
+      <img id='second' src='https://i.imgur.com/eA82jcz.png' alt='profile' />
+      <img id='third' src='https://i.imgur.com/8y5SflB.png' alt='profile' />
     </HeaderBackground>
   )
 }

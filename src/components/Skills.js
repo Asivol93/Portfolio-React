@@ -48,27 +48,29 @@ export const Skills = () => {
             <SkillsBox>
               <h5>Code</h5>
               <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript ES6</li>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>React</li>
-                <li>Redux</li>
+                <li>Redux & Redux Saga</li>
                 <li>React Native</li>
                 <li>Node.js</li>
-                <li>Express.js</li>
+                <li>Express.js & Mongoose</li>
                 <li>MongoDB</li>
                 <li>Git</li>
                 <li>Material UI</li>
+                <li>React Final Forms</li>
               </ul>
             </SkillsBox>
             <SkillsBox>
               <h5>Toolbox</h5>
               <ul>
+                <li>Sharepoint</li>
                 <li>Figma</li>
                 <li>Slack</li>
                 <li>Mural</li>
                 <li>Excel</li>
-                <li>Github</li>
+                <li>Github/Gitlab</li>
               </ul>
             </SkillsBox>
             <SkillsBox>
